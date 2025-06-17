@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SamacSys_Parts")(type "Legacy")(uri "C:/Users/Justus/Projekte/open_g/hardware/Parts - Libraries/SamacSys_Parts.lib")(options "")(descr ""))
+  (lib (name "OpenG_Lib")(type "KiCad")(uri "C:/Users/Justus/Projekte/open_g/hardware/Parts - Libraries/OpenG_Lib.kicad_sym")(options "")(descr ""))
+)

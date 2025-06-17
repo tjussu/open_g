@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "C:/Users/Justus/Projekte/open_g/hardware/Parts - Libraries/SamacSys_Parts.pretty")(options "")(descr ""))
+)

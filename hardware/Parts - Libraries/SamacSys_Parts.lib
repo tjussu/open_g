@@ -1,0 +1,377 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model N7803-1C
+#/15706549/1670548/2.50/3/3/Power Supply
+DEF N7803-1C PS 0 30 Y Y 1 F N
+F0 "PS" 850 300 50 H V L CNN
+F1 "N7803-1C" 850 200 50 H V L CNN
+F2 "N78031C" 850 100 50 H I L CNN
+F3 "https://www.meanwell.com/webapp/product/search.aspx?prod=N78" 850 0 50 H I L CNN
+F4 "Switching Voltage Regulators 6-36Vin 3.3Vout 0-1000mA Encapsulated Non-Isolated DC-DC Switching Regulator" 850 -100 50 H I L CNN "Description"
+F5 "17.5" 850 -200 50 H I L CNN "Height"
+F6 "709-N7803-1C" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/N7803-1C?qs=7D1LtPJG0i1K0F21XTLD8Q%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Mean Well" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "N7803-1C" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X +VIN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X +VOUT 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 5525DSO-DB001DS
+#/519489/1670548/2.50/14/2/Integrated Circuit
+DEF 5525DSO-DB001DS IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "5525DSO-DB001DS" 1350 200 50 H V L CNN
+F2 "5525DSODB001DS" 1350 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5525DSO&DocType=Data%20Sheet&DocLang=English&PartCntxt=5525DSO-DB001DS&DocFormat=pdf" 1350 0 50 H I L CNN
+F4 "Configuration Features: Leads/Pins Gull Wing | Dimensions: Dimensions 12.5 x 7.9 MM | Dimensions .49 x .31 INCH | Electrical Characteristics: Board Level Pressure Sensor Supply Voltage 1.8  3.6 V | Operation/Application: Output/Span 24 bit ADC | Output Interface IC and SPI (Mode 0, 3) | Proof Pressure Range 60 psi | Board Level Pressure Sensor Accuracy +/-0.25% Span | Pressure 1 PSI | Packaging Features: Package Style Dual Barb | Board Level Pressure Sensor Package SOIC-14 | Product Type Features: Board" 1350 -100 50 H I L CNN "Description"
+F5 "9" 1350 -200 50 H I L CNN "Height"
+F6 "824-5525DSO-DB001DS" 1350 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Measurement-Specialties/5525DSO-DB001DS?qs=KdTYp8tcPgnZ%252BWPvH%252BMjiA%3D%3D" 1350 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 1350 -500 50 H I L CNN "Manufacturer_Name"
+F9 "5525DSO-DB001DS" 1350 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X SGND_1 1 0 0 200 R 50 50 0 0 P
+X SOUT-_1 2 1500 0 200 L 50 50 0 0 P
+X SGND_2 3 0 -100 200 R 50 50 0 0 P
+X SOUT-_2 4 1500 -100 200 L 50 50 0 0 P
+X SDO 5 0 -200 200 R 50 50 0 0 O
+X SDI/SDA 6 1500 -200 200 L 50 50 0 0 B
+X SCLK/SCL 7 0 -300 200 R 50 50 0 0 I
+X CBS 8 1500 -300 200 L 50 50 0 0 I
+X GND 9 0 -400 200 R 50 50 0 0 W
+X PS 10 1500 -400 200 L 50 50 0 0 I
+X SUPPLY+_1 11 0 -500 200 R 50 50 0 0 W
+X SOUT+_1 12 1500 -500 200 L 50 50 0 0 O
+X SUPPLY+_2 13 0 -600 200 R 50 50 0 0 W
+X SOUT+_2 14 1500 -600 200 L 50 50 0 0 O
+P 5 0 1 6 200 100 1300 100 1300 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TS04-66-75-BK-160-SMT
+#/15591612/1670548/2.50/4/2/Integrated Circuit
+DEF TS04-66-75-BK-160-SMT IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "TS04-66-75-BK-160-SMT" 1050 200 50 H V L CNN
+F2 "TS046675BK160SMT" 1050 100 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/supplyframepdf/ts04.pdf" 1050 0 50 H I L CNN
+F4 "6 x 6 mm, 7.5 mm Actuator Height, 160 gf, Black, Surface Mount, SPST, Tactile Switch" 1050 -100 50 H I L CNN "Description"
+F5 "7.8" 1050 -200 50 H I L CNN "Height"
+F6 "179-TS046675BK160SMT" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS04-66-75-BK-160-SMT?qs=A6eO%252BMLsxmR5CIauYOve0Q%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Same Sky" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TS04-66-75-BK-160-SMT" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NO_1 1 0 0 200 R 50 50 0 0 P
+X NO_2 2 1200 0 200 L 50 50 0 0 P
+X COM_1 3 0 -100 200 R 50 50 0 0 P
+X COM_2 4 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model NFD17E09SAFC1DA
+#/18805628/1670548/2.50/11/2/Connector
+DEF NFD17E09SAFC1DA J 0 30 Y Y 1 F N
+F0 "J" 850 500 50 H V L CNN
+F1 "NFD17E09SAFC1DA" 850 400 50 H V L CNN
+F2 "NFD17E09SAFC1DA" 850 300 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/p-nfd17-xxxsa-fc1d-a.pdf" 850 200 50 H I L CNN
+F4 "D-Sub, 9 Pin Socket, Right Angle, Boardlocks #4-40 UNC Threaded Hole" 850 100 50 H I L CNN "Description"
+F5 "12.93" 850 0 50 H I L CNN "Height"
+F6 "" 850 -100 50 H I L CNN "Mouser Part Number"
+F7 "" 850 -200 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol Communications Solutions" 850 -300 50 H I L CNN "Manufacturer_Name"
+F9 "NFD17E09SAFC1DA" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 700 500 200 D 50 50 0 0 P
+X 2 2 600 500 200 D 50 50 0 0 P
+X 3 3 500 500 200 D 50 50 0 0 P
+X 4 4 400 500 200 D 50 50 0 0 P
+X 5 5 300 500 200 D 50 50 0 0 P
+X 6 6 600 -500 200 U 50 50 0 0 P
+X 7 7 500 -500 200 U 50 50 0 0 P
+X 8 8 400 -500 200 U 50 50 0 0 P
+X 9 9 300 -500 200 U 50 50 0 0 P
+X MH1 MH1 1000 0 200 L 50 50 0 0 P
+X MH2 MH2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 300 800 300 800 -300 200 -300 200 300 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1861975
+#/962778/1670548/2.50/12/2/Connector
+DEF 1861975 J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "1861975" 850 200 50 H V L CNN
+F2 "PC1861975" 850 100 50 H I L CNN
+F3 "http://www.phoenixcontact.com/de/produkte/1861975/pdf" 850 0 50 H I L CNN
+F4 "PCB terminal block, nominal current: 16 A, rated voltage (III/2): 160 V, nominal cross section: 1.5 mm?, Number of potentials: 6, Number of rows: 1, Number of positions per row: 6, product range: SPTAF 1/..-IL, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: Wave soldering, conductor/PCB connection direction: 45 ?, color: green, Pin layout: Linear double pinning, Solder pin [P]: 2.6 mm, type of packaging: packed in cardboard" 850 -100 50 H I L CNN "Description"
+F5 "" 850 -200 50 H I L CNN "Height"
+F6 "651-1861975" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1861975?qs=tlR8i4ZVbUeb8cFKQBJmmw%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Phoenix Contact" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1861975" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1.1 1 0 0 200 R 50 50 0 0 P
+X 1.2 2 1000 0 200 L 50 50 0 0 P
+X 2.1 3 0 -100 200 R 50 50 0 0 P
+X 2.2 4 1000 -100 200 L 50 50 0 0 P
+X 3.1 5 0 -200 200 R 50 50 0 0 P
+X 3.2 6 1000 -200 200 L 50 50 0 0 P
+X 4.1 7 0 -300 200 R 50 50 0 0 P
+X 4.2 8 1000 -300 200 L 50 50 0 0 P
+X 5.1 9 0 -400 200 R 50 50 0 0 P
+X 5.2 10 1000 -400 200 L 50 50 0 0 P
+X 6.1 11 0 -500 200 R 50 50 0 0 P
+X 6.2 12 1000 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 3557-2
+#/237823/1670548/2.50/4/3/Connector
+DEF 3557-2 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "3557-2" 650 200 50 H V L CNN
+F2 "3557-2" 650 100 50 H I L CNN
+F3 "http://www.keyelco.com/product-pdf.cfm?p=296" 650 0 50 H I L CNN
+F4 "THM 2 in 1 Auto Blade Holder P/N 3557-2" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "534-3557-2" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3557-2?qs=cxy41lVAGV%2FfbyASjpXK1g%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Keystone Electronics" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3557-2" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1MS1T1B4M7QES
+#/15975765/1670548/2.50/5/3/Switch
+DEF 1MS1T1B4M7QES S 0 30 Y Y 1 F N
+F0 "S" 850 300 50 H V L CNN
+F1 "1MS1T1B4M7QES" 850 200 50 H V L CNN
+F2 "1MS1T1B4M7QES" 850 100 50 H I L CNN
+F3 "https://www.dailywell.com.tw/en/search/index.html?q=1MS1T1B4M7QES&type=all" 850 0 50 H I L CNN
+F4 "Toggle Switches toggleSPDT switch on-on vertical right angle pc thru-hole" 850 -100 50 H I L CNN "Description"
+F5 "12.7" 850 -200 50 H I L CNN "Height"
+F6 "118-1MS1T1B4M7QES" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Dailywell/1MS1T1B4M7QES?qs=B6kkDfuK7%2FAUibuiVO%252BdHA%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Dailywell" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1MS1T1B4M7QES" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NO 1 0 0 200 R 50 50 0 0 P
+X COM 2 0 -100 200 R 50 50 0 0 P
+X NC 3 0 -200 200 R 50 50 0 0 N
+X MH1 MH1 1000 0 200 L 50 50 0 0 P
+X MH2 MH2 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model N7805-1PH
+#/15715528/1670548/2.50/3/3/Power Supply
+DEF N7805-1PH PS 0 30 Y Y 1 F N
+F0 "PS" 850 300 50 H V L CNN
+F1 "N7805-1PH" 850 200 50 H V L CNN
+F2 "N78051PH" 850 100 50 H I L CNN
+F3 "https://www.meanwell.com/webapp/product/search.aspx?prod=N78" 850 0 50 H I L CNN
+F4 "Switching Voltage Regulators 8-36Vin 5Vout 0-1000mA or 8-27Vin -5Vout 0-500mA PCB W/Horizontal mount Non-Isolated DC-DC Switching Regulator" 850 -100 50 H I L CNN "Description"
+F5 "7.5" 850 -200 50 H I L CNN "Height"
+F6 "709-N7805-1PH" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/MEAN-WELL/N7805-1PH?qs=7D1LtPJG0i2yQtENgJv8Bw%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Mean Well" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "N7805-1PH" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X +VIN 1 0 0 200 R 50 50 0 0 P
+X -VOUT 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CMI-0955-03TH
+#/20079604/1670548/2.50/2/2/Loudspeaker or Buzzer
+DEF CMI-0955-03TH LS 0 30 Y Y 1 F N
+F0 "LS" 450 0 50 H V L CNN
+F1 "CMI-0955-03TH" 450 -100 50 H V L CNN
+F2 "CMI095503TH" 450 -200 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/supplyframepdf/cmi-0955-03th.pdf" 450 -300 50 H I L CNN
+F4 "9 mm, 3 Vdc, 80 dB, Through Hole, Magnetic Audio Indicator Buzzer" 450 -400 50 H I L CNN "Description"
+F5 "5.7" 450 -500 50 H I L CNN "Height"
+F6 "179-CMI-0955-03TH" 450 -600 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Same-Sky/CMI-0955-03TH?qs=olJun0bQHM8qnyh30s0SwQ%3D%3D" 450 -700 50 H I L CNN "Mouser Price/Stock"
+F8 "Same Sky" 450 -800 50 H I L CNN "Manufacturer_Name"
+F9 "CMI-0955-03TH" 450 -900 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X + 1 0 0 200 R 50 50 0 0 P
+X - 2 0 -100 200 R 50 50 0 0 P
+P 6 0 1 6 200 50 280 50 380 150 380 -250 280 -150 200 -150 N
+P 2 0 1 6 200 50 200 -150 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BC548A
+#/16426696/1670548/2.50/3/3/Transistor BJT NPN
+DEF BC548A Q 0 30 Y Y 1 F N
+F0 "Q" 550 50 50 H V L CNN
+F1 "BC548A" 550 -50 50 H V L CNN
+F2 "BC548A" 550 -150 50 H I L CNN
+F3 "https://diotec.com/request/datasheet/bc546.pdf" 550 -250 50 H I L CNN
+F4 "Bipolar (BJT) Transistor NPN 30 V 100 mA 300MHz 500 mW Through Hole TO-92-3" 550 -350 50 H I L CNN "Description"
+F5 "4.7" 550 -450 50 H I L CNN "Height"
+F6 "637-BC548A" 550 -550 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diotec-Semiconductor/BC548A?qs=OlC7AqGiEDn7ksXHluy35w%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F8 "Diotec" 550 -750 50 H I L CNN "Manufacturer_Name"
+F9 "BC548A" 550 -850 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 2 0 0 100 R 50 50 0 0 P
+X ~ 3 400 -300 100 U 50 50 0 0 P
+X ~ 1 400 300 100 D 50 50 0 0 P
+P 2 0 1 20 300 100 300 -100 N
+P 2 0 1 6 300 50 400 150 N
+P 2 0 1 6 300 -50 400 -150 N
+P 2 0 1 6 400 -150 400 -200 N
+P 2 0 1 6 400 150 400 200 N
+P 2 0 1 6 100 0 300 0 N
+C 350 0 158 0 1 10 N
+P 4 0 1 10 330 -100 350 -80 370 -120 330 -100 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MMBD352WT1G
+#/1793133/1670548/2.50/3/2/Diode
+DEF MMBD352WT1G D 0 30 Y Y 1 F N
+F0 "D" 750 300 50 H V L CNN
+F1 "MMBD352WT1G" 750 200 50 H V L CNN
+F2 "SOT65P220X100-3N" 750 100 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/MMBD352WT1-D.PDF" 750 0 50 H I L CNN
+F4 "Low Forward Voltage - 0.5 Volts (Typ) @ IF = 10 mA; Very Low Capacitance - Less Than 1.0 pF @ Zero Volts; Pb-Free Package is Available; NSV Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC Qualified and PPAP Capable" 750 -100 50 H I L CNN "Description"
+F5 "1" 750 -200 50 H I L CNN "Height"
+F6 "863-MMBD352WT1G" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/MMBD352WT1G?qs=HVbQlW5zcXX4Hbj73AzZEQ%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "onsemi" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MMBD352WT1G" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A 1 0 0 200 R 50 50 0 0 P
+X K 2 0 -100 200 R 50 50 0 0 P
+X K/A 3 900 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 2-1825027-0
+#/267516/1670548/2.50/4/2/Connector
+DEF 2-1825027-0 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "2-1825027-0" 650 200 50 H V L CNN
+F2 "218250270" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=Catalog%20Section&DocLang=English&PartCntxt=2-1825027-0&DocFormat=pdf" 650 0 50 H I L CNN
+F4 "Body Features: Actuator Material Nylon | Product Orientation Right Angle | Actuator Profile Extended | Case Color Black | Actuator Force 160 G | Actuator Color Black | Case Material Nylon | Actuator Force 5.64 OZ | Configuration Features: Ganged With | Switch Feedback Type Tactile | ESD Grounding Terminal Without | Support Bracket With | Number of Actuators Single | Operating Function NO | Configuration (Pole-Throw) Single Pole - Single Throw | Contact Features: Contact Current Rating 50 MAMP | Contact Base" 650 -100 50 H I L CNN "Description"
+F5 "7.01" 650 -200 50 H I L CNN "Height"
+F6 "506-2-1825027-0" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-PB/2-1825027-0?qs=sLzr0G66nuqhlS4AJQmBZQ%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "2-1825027-0" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 -100 200 L 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model STPS8H100D
+#/180467/1670548/2.50/2/3/Diode
+DEF STPS8H100D D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "STPS8H100D" 450 100 50 H V L CNN
+F2 "TO515P460X1020X2008-2P" 450 0 50 H I L CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00001293.pdf" 450 -100 50 H I L CNN
+F4 "Schottky barrier diode,STPS8H100D STMicroelectronics STPS8H100D Schottky Diode, 8A, 100V, 2-Pin TO-220AC" 450 -200 50 H I L CNN "Description"
+F5 "4.6" 450 -300 50 H I L CNN "Height"
+F6 "511-STPS8H100D" 450 -400 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STPS8H100D?qs=JV7lzlMm3yLc5UJZDGTzhw%3D%3D" 450 -500 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 450 -600 50 H I L CNN "Manufacturer_Name"
+F9 "STPS8H100D" 450 -700 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DM3CS-SF
+#/12849539/1670548/2.50/13/4/Connector
+DEF DM3CS-SF J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "DM3CS-SF" 1150 200 50 H V L CNN
+F2 "DM3CSSF" 1150 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Hirose-HRS-DM3CS-SF_C202111.pdf" 1150 0 50 H I L CNN
+F4 "Memory Card Connectors 8P R/A SMT MICRO SD HINGE PUSH-PULL" 1150 -100 50 H I L CNN "Description"
+F5 "1.83" 1150 -200 50 H I L CNN "Height"
+F6 "798-DM3CSSF" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DM3CS-SF?qs=tTj%252BmQ3KZwbB9K5zh89Rcw%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Hirose" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DM3CS-SF" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X DAT2 1 0 0 200 R 50 50 0 0 P
+X CD/DAT3 2 0 -100 200 R 50 50 0 0 P
+X CMD 3 0 -200 200 R 50 50 0 0 P
+X VDD 4 0 -300 200 R 50 50 0 0 P
+X CLK 5 0 -400 200 R 50 50 0 0 P
+X VSS 6 0 -500 200 R 50 50 0 0 P
+X DAT0 7 0 -600 200 R 50 50 0 0 P
+X DAT1 8 1300 0 200 L 50 50 0 0 P
+X MP1 MP1 1300 -100 200 L 50 50 0 0 P
+X MP2 MP2 1300 -200 200 L 50 50 0 0 P
+X MP3 MP3 1300 -300 200 L 50 50 0 0 P
+X MP4 MP4 1300 -400 200 L 50 50 0 0 P
+X MP5 MP5 1300 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

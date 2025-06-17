@@ -1,0 +1,93 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP N7803-1C
+D Switching Voltage Regulators 6-36Vin 3.3Vout 0-1000mA Encapsulated Non-Isolated DC-DC Switching Regulator
+K
+F https://www.meanwell.com/webapp/product/search.aspx?prod=N78
+$ENDCMP
+#
+$CMP 5525DSO-DB001DS
+D Configuration Features: Leads/Pins Gull Wing | Dimensions: Dimensions 12.5 x 7.9 MM | Dimensions .49 x .31 INCH | Electrical Characteristics: Board Level Pressure Sensor Supply Voltage 1.8  3.6 V | Operation/Application: Output/Span 24 bit ADC | Output Interface IC and SPI (Mode 0, 3) | Proof Pressure Range 60 psi | Board Level Pressure Sensor Accuracy +/-0.25% Span | Pressure 1 PSI | Packaging Features: Package Style Dual Barb | Board Level Pressure Sensor Package SOIC-14 | Product Type Features: Board
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5525DSO&DocType=Data%20Sheet&DocLang=English&PartCntxt=5525DSO-DB001DS&DocFormat=pdf
+$ENDCMP
+#
+$CMP TS04-66-75-BK-160-SMT
+D 6 x 6 mm, 7.5 mm Actuator Height, 160 gf, Black, Surface Mount, SPST, Tactile Switch
+K
+F https://www.sameskydevices.com/product/resource/supplyframepdf/ts04.pdf
+$ENDCMP
+#
+$CMP NFD17E09SAFC1DA
+D D-Sub, 9 Pin Socket, Right Angle, Boardlocks #4-40 UNC Threaded Hole
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/p-nfd17-xxxsa-fc1d-a.pdf
+$ENDCMP
+#
+$CMP 1861975
+D PCB terminal block, nominal current: 16 A, rated voltage (III/2): 160 V, nominal cross section: 1.5 mm?, Number of potentials: 6, Number of rows: 1, Number of positions per row: 6, product range: SPTAF 1/..-IL, pitch: 3.5 mm, connection method: Push-in spring connection, mounting: Wave soldering, conductor/PCB connection direction: 45 ?, color: green, Pin layout: Linear double pinning, Solder pin [P]: 2.6 mm, type of packaging: packed in cardboard
+K
+F http://www.phoenixcontact.com/de/produkte/1861975/pdf
+$ENDCMP
+#
+$CMP 3557-2
+D THM 2 in 1 Auto Blade Holder P/N 3557-2
+K
+F http://www.keyelco.com/product-pdf.cfm?p=296
+$ENDCMP
+#
+$CMP 1MS1T1B4M7QES
+D Toggle Switches toggleSPDT switch on-on vertical right angle pc thru-hole
+K
+F https://www.dailywell.com.tw/en/search/index.html?q=1MS1T1B4M7QES&type=all
+$ENDCMP
+#
+$CMP N7805-1PH
+D Switching Voltage Regulators 8-36Vin 5Vout 0-1000mA or 8-27Vin -5Vout 0-500mA PCB W/Horizontal mount Non-Isolated DC-DC Switching Regulator
+K
+F https://www.meanwell.com/webapp/product/search.aspx?prod=N78
+$ENDCMP
+#
+$CMP CMI-0955-03TH
+D 9 mm, 3 Vdc, 80 dB, Through Hole, Magnetic Audio Indicator Buzzer
+K
+F https://www.sameskydevices.com/product/resource/supplyframepdf/cmi-0955-03th.pdf
+$ENDCMP
+#
+$CMP BC548A
+D Bipolar (BJT) Transistor NPN 30 V 100 mA 300MHz 500 mW Through Hole TO-92-3
+K
+F https://diotec.com/request/datasheet/bc546.pdf
+$ENDCMP
+#
+$CMP MMBD352WT1G
+D Low Forward Voltage - 0.5 Volts (Typ) @ IF = 10 mA; Very Low Capacitance - Less Than 1.0 pF @ Zero Volts; Pb-Free Package is Available; NSV Prefix for Automotive and Other Applications Requiring Unique Site and Control Change Requirements; AEC Qualified and PPAP Capable
+K
+F https://www.onsemi.com/pub/Collateral/MMBD352WT1-D.PDF
+$ENDCMP
+#
+$CMP 2-1825027-0
+D Body Features: Actuator Material Nylon | Product Orientation Right Angle | Actuator Profile Extended | Case Color Black | Actuator Force 160 G | Actuator Color Black | Case Material Nylon | Actuator Force 5.64 OZ | Configuration Features: Ganged With | Switch Feedback Type Tactile | ESD Grounding Terminal Without | Support Bracket With | Number of Actuators Single | Operating Function NO | Configuration (Pole-Throw) Single Pole - Single Throw | Contact Features: Contact Current Rating 50 MAMP | Contact Base
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1308111-1_SWITCHES_CORE_PROGRAM_CATALOG&DocType=Catalog%20Section&DocLang=English&PartCntxt=2-1825027-0&DocFormat=pdf
+$ENDCMP
+#
+$CMP STPS8H100D
+D Schottky barrier diode,STPS8H100D STMicroelectronics STPS8H100D Schottky Diode, 8A, 100V, 2-Pin TO-220AC
+K
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001293.pdf
+$ENDCMP
+#
+$CMP DM3CS-SF
+D Memory Card Connectors 8P R/A SMT MICRO SD HINGE PUSH-PULL
+K
+F https://datasheet.lcsc.com/szlcsc/Hirose-HRS-DM3CS-SF_C202111.pdf
+$ENDCMP
+#
+#End Doc Library
