@@ -16292,7 +16292,7 @@
 	)
 	(gr_text "OpenG Project\nSensor Board\nv1.0 06/2025"
 		(at 109.4 70.8 90)
-		(layer "F.Cu")
+		(layer "F.SilkS")
 		(uuid "87533a71-a0c2-423a-88b0-b26cba1cc0b5")
 		(effects
 			(font

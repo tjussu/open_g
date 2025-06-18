@@ -52,56 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "drill_out_of_range|151780000|69550000|b2cb60fd-0ca4-4fb2-a9bc-e97eef507fbb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|151780000|70950000|b2cb60fd-0ca4-4fb2-a9bc-e97eef507fbb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|152480000|68850000|b2cb60fd-0ca4-4fb2-a9bc-e97eef507fbb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|152480000|70250000|b2cb60fd-0ca4-4fb2-a9bc-e97eef507fbb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|152480000|71650000|b2cb60fd-0ca4-4fb2-a9bc-e97eef507fbb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|153180000|69550000|b2cb60fd-0ca4-4fb2-a9bc-e97eef507fbb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|153180000|70950000|b2cb60fd-0ca4-4fb2-a9bc-e97eef507fbb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|153880000|68850000|b2cb60fd-0ca4-4fb2-a9bc-e97eef507fbb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|153880000|70250000|b2cb60fd-0ca4-4fb2-a9bc-e97eef507fbb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|153880000|71650000|b2cb60fd-0ca4-4fb2-a9bc-e97eef507fbb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|154580000|69550000|b2cb60fd-0ca4-4fb2-a9bc-e97eef507fbb|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "drill_out_of_range|154580000|70950000|b2cb60fd-0ca4-4fb2-a9bc-e97eef507fbb|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -178,10 +129,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.15,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },

@@ -4644,17 +4644,6 @@
 		)
 		(uuid "5cdcdede-7f44-42a6-af86-e511935fc38b")
 	)
-	(text "TODO: \n- UART Pull"
-		(exclude_from_sim no)
-		(at 161.29 169.672 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8b9f86fb-4797-464e-a986-018c54f12d7b")
-	)
 	(text "ISM330DHCX\nAddr: 0x6A/0x6B"
 		(exclude_from_sim no)
 		(at 82.55 115.824 0)

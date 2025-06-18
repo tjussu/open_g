@@ -36647,7 +36647,7 @@
 	)
 	(gr_text "OpenG Project\nDisplay Board\nv1.0 06/2025"
 		(at 230 93 0)
-		(layer "F.Cu")
+		(layer "F.SilkS")
 		(uuid "31216f92-cb1e-4629-8f34-18fec87625bf")
 		(effects
 			(font
