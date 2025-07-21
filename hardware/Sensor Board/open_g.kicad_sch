@@ -4644,7 +4644,7 @@
 		)
 		(uuid "5cdcdede-7f44-42a6-af86-e511935fc38b")
 	)
-	(text "ISM330DHCX\nAddr: 0x6A/0x6B"
+	(text "ISM330DHCX\nAddr: 0x6A"
 		(exclude_from_sim no)
 		(at 82.55 115.824 0)
 		(effects

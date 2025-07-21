@@ -3,3 +3,19 @@ hardware/Display Board/open_g_db-backups
 hardware/Sensor Board/open_g-backups
 hardware/Display Board/gerber.rar
 hardware/Sensor Board/gerber.rar
+software/firmware_display_board/.devcontainer
+software/firmware_display_board/.vscode
+software/firmware_display_board/build
+software/firmware_display_board/.clangd
+software/firmware_display_board/pytest_hello_world.py
+software/firmware_display_board/README.md
+software/firmware_display_board/sdkconfig.ci
+software/firmware_display_board/sdkconfig.old
+software/firmware_sensor_board/.devcontainer
+software/firmware_sensor_board/.vscode
+software/firmware_sensor_board/build
+software/firmware_sensor_board/.clangd
+software/firmware_sensor_board/pytest_hello_world.py
+software/firmware_sensor_board/README.md
+software/firmware_sensor_board/sdkconfig.ci
+software/firmware_sensor_board/sdkconfig.old
